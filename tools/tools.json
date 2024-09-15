@@ -30,14 +30,8 @@
 		"cats": ["XOR"]
 	},
 	{
-		"name": "XorJS",
-		"legend": "Compare files, or constant bytes",
-		"url": "https://cyber.meme.tips/xorjs/", 
-		"cats": ["XOR"]
-	},
-	{
 		"name": "Outguess Rebirth",
-		"legend": "Embed/Extract hidden data inside JPEG using AES. Not compatible with OutGuess",
+		"legend": "Embed/Extract hidden data inside JPEG using AES. Not compatible with the original OutGuess",
 		"url": "https://web.archive.org/web/20160321111618/http://www.outguess-rebirth.com/", 
 		"cats": ["Steganography"]
 	},
@@ -47,14 +41,20 @@
 		"url": "https://web.archive.org/web/20150415220609/http://www.outguess.org/download.php",
 		"cats": ["Steganography"]
 	},
-		{
-		"name": "OutGuess",
+	{
+		"name": "OutGuess - resurrecting-open-source-projects",
+		"legend": "Embed/Extract hidden data inside JPEG, PPM and PNM using AES. Not compatible with Outguess Rebirth",
+		"url": "https://github.com/resurrecting-open-source-projects/outguess",
+		"cats": ["Steganography"]
+	},
+	{
+		"name": "JOutguess Rebirth",
 		"legend": "Web-based tool. Detect & extract hidden data inside JPEG and PNM using AES. Not compatible with Outguess Rebirth",
 		"url": "https://cicada-solvers.github.io/joutguess-rebirth/",
 		"cats": ["Steganography"]
 	},
-		{
-		"name": "OutGuess",
+	{
+		"name": "JOutguess",
 		"legend": "Web-based tool. Detect & extract hidden data inside JPEG and PNM using AES. Not compatible with Outguess Rebirth",
 		"url": "https://cyber.meme.tips/joutguess/",
 		"cats": ["Steganography"]

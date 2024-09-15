@@ -37,14 +37,26 @@
 	},
 	{
 		"name": "Outguess Rebirth",
-		"legend": "Embed hidden data inside JPEG using AES. Not compatible with OutGuess",
+		"legend": "Embed/Extract hidden data inside JPEG using AES. Not compatible with OutGuess",
 		"url": "https://web.archive.org/web/20160321111618/http://www.outguess-rebirth.com/", 
 		"cats": ["Steganography"]
 	},
 	{
 		"name": "OutGuess",
-		"legend": "Embed hidden data inside JPEG and PNM using AES. Not compatible with Outguess Rebirth",
+		"legend": "Embed/Extract hidden data inside JPEG and PNM using AES. Not compatible with Outguess Rebirth",
 		"url": "https://web.archive.org/web/20150415220609/http://www.outguess.org/download.php",
+		"cats": ["Steganography"]
+	},
+		{
+		"name": "OutGuess",
+		"legend": "Web-based tool. Detect & extract hidden data inside JPEG and PNM using AES. Not compatible with Outguess Rebirth",
+		"url": "https://cicada-solvers.github.io/joutguess-rebirth/",
+		"cats": ["Steganography"]
+	},
+		{
+		"name": "OutGuess",
+		"legend": "Web-based tool. Detect & extract hidden data inside JPEG and PNM using AES. Not compatible with Outguess Rebirth",
+		"url": "https://cyber.meme.tips/joutguess/",
 		"cats": ["Steganography"]
 	}
 ]}

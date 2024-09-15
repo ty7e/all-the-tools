@@ -1,0 +1,32 @@
+{"tools":[
+	{
+		"name": "XOR Cipher",
+		"legend": "XOR by key",
+		"url": "https://www.dcode.fr/xor-cipher",
+		"cats": ["xor", "web"]
+	},
+	{
+		"name": "Binary Bitwise XOR Calculator", 
+		"legend": "Compare any number of binary strings",
+		"url": "https://www.browserling.com/tools/binary-xor", 
+		"cats": ["xor", "web"]
+	},
+	{
+		"name": "CyberChef XOR", 
+		"legend": "Compare file or string with constant bytes, modifiable recipe",
+		"url": "https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'Hex','string':'3a'%7D,'',false)To_Hexdump(16,false,false,false)&input=dGVzdA", 
+		"cats": ["xor", "web"]
+	},
+	{
+		"name": "XOR Calculator",
+		"legend": "Compare two strings",
+		"url": "https://xor.pw/", 
+		"cats": ["xor", "web"]
+	},
+	{
+		"name": "XorJS",
+		"legend": "Compare files, or constant bytes",
+		"url": "https://cyber.meme.tips/xorjs/", 
+		"cats": ["xor", "web"]
+	}
+]}

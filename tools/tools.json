@@ -3,48 +3,48 @@
 		"name": "XOR Cipher",
 		"legend": "XOR by key",
 		"url": "https://www.dcode.fr/xor-cipher",
-		"cats": ["xor"]
+		"cats": ["XOR"]
 	},
 	{
 		"name": "Binary Bitwise XOR Calculator", 
 		"legend": "Compare any number of binary strings",
 		"url": "https://www.browserling.com/tools/binary-xor", 
-		"cats": ["xor"]
+		"cats": ["XOR"]
 	},
 	{
 		"name": "CyberChef XOR", 
 		"legend": "Compare file or string with constant bytes, modifiable recipe",
 		"url": "https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'Hex','string':'3a'%7D,'',false)To_Hexdump(16,false,false,false)&input=dGVzdA", 
-		"cats": ["xor"]
+		"cats": ["XOR"]
 	},
 	{
 		"name": "XOR Calculator",
 		"legend": "Compare two strings",
 		"url": "https://xor.pw/", 
-		"cats": ["xor"]
+		"cats": ["XOR"]
 	},
 	{
 		"name": "XorJS",
 		"legend": "Compare files, or constant bytes",
 		"url": "https://cyber.meme.tips/xorjs/", 
-		"cats": ["xor"]
+		"cats": ["XOR"]
 	},
 	{
 		"name": "XorJS",
 		"legend": "Compare files, or constant bytes",
 		"url": "https://cyber.meme.tips/xorjs/", 
-		"cats": ["xor"]
+		"cats": ["XOR"]
 	},
 	{
 		"name": "Outguess Rebirth",
 		"legend": "Embed hidden data inside JPEG using AES. Not compatible with OutGuess",
 		"url": "https://web.archive.org/web/20160321111618/http://www.outguess-rebirth.com/", 
-		"cats": ["steganography"]
+		"cats": ["Steganography"]
 	},
 	{
 		"name": "OutGuess",
 		"legend": "Embed hidden data inside JPEG and PNM using AES. Not compatible with Outguess Rebirth",
 		"url": "https://web.archive.org/web/20150415220609/http://www.outguess.org/download.php",
-		"cats": ["steganography"]
+		"cats": ["Steganography"]
 	}
 ]}

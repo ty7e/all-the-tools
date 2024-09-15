@@ -1,16 +1,35 @@
-tools.initialization.then((tools) => {
-	listData(tools);
+tools.initialization.then(() => {
+	listData();
 });
 
-
-function listData(tools) {
-	const ul = document.createElement('ul');
+function listData() {
+	const cats = tools.getAllCats();
 	
-	tools.forEach((tool) => {
+	cats.forEach(catName => {
+		catHeader(catName);
+		listCat(tools.getCat(catName));
+	});
+};
+
+function catHeader(catName) {
+	const header = document.createElement('h2');
+	header.innerHTML = catName;
+	document.body.appendChild(header);
+}
+
+function listCat(cat) {
+	const ul = document.createElement('ul');
+	ul.classList.add("tool-list");
+	document.body.appendChild(ul);
+	
+	cat.forEach((tool) => {
+		
 		let li = document.createElement("li");
         li.innerText = tool.name;
+		li.classList.add("tool-item", "hidden");
 		
 		ul.appendChild(li);
-        document.body.appendChild(ul);
+		window.getComputedStyle(li).opacity;
+		li.classList.toggle("hidden");
 	});
 };

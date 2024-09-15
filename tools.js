@@ -9,7 +9,7 @@ class Tools {
 	async init() {
         this.data = await this.getData();
 		
-		return this.data.tools;
+		return this.data;
     }
 	
 	async getData() {
@@ -29,6 +29,10 @@ class Tools {
 	
 	getCat(cat) {
 		return this.getAll().filter(tool => tool.cats.includes(cat));
+	}
+	
+	getAllCats() {
+		return Array.from(new Set(this.getAll().flatMap(tool => tool.cats)))
 	}
 	
 	getAll() {

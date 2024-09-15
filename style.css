@@ -1,0 +1,14 @@
+.tool-list {
+	transition: opacity 0.5s ease-in;
+	list-style-position: none;
+	padding-left: 0;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.tool-list-item {
+	list-style-position: none;
+	padding-left: 0;
+}
